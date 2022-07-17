@@ -123,3 +123,45 @@ img {
     opacity: 40%;
     filter: blur(5px);
 }
+
+@media (min-width: 1900px) {
+    
+    .image {
+        left: 50px;
+        top: -90px;
+    }
+    
+    img {
+        max-width: 850px;
+    }
+    
+    .dots .dot1 {
+        top: -200px;
+        left: 150px;
+        height: 370px;
+        width: 370px;
+    } 
+    
+    .dots .dot2 {
+        left: 400px;
+        top: 360px;
+    }
+    
+    .dots .dot3 {
+        left: 150px;
+        top: 450px;
+        height: 230px;
+        width: 230px;
+    } 
+    
+    .dots .dot4 {
+        left: 1024px;
+        top: 470px;
+        height: 320px;
+        width: 320px;
+    } 
+    
+    .bg svg {
+        margin: 2% auto;
+    }
+}
